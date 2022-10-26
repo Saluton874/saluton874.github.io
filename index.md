@@ -4,7 +4,7 @@
 
 ### [makirin_AI_v2](https://github.com/Saluton874/makirin_AI_v2)
 
-**未完成**の人工無脳プログラムです。
+<span style="color: red">**未完成**</span>の人工無脳プログラムです。
 
 #### 関連ページ
 
