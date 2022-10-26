@@ -1,3 +1,5 @@
+<link rel="stylesheet" href="https://saluton874.github.io/assets/css/main.css">
+
 # チェシャちの備忘録
 
 ## 主なリポジトリ
@@ -47,7 +49,3 @@
 
 {: align="center"}
 (c) 2022 [Saluton874](https://github.com/Saluton874)
-
-<script>
-head.insertAdjacentHTML('beforeEnd', '<link rel="stylesheet" href="assets/css/main.css">');
-</script>
