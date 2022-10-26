@@ -1,3 +1,9 @@
+<style>  
+  body{
+	  background:black;
+  }
+</style> 
+
 # チェシャちの備忘録
 
 ## 主なリポジトリ
