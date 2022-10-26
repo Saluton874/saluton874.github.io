@@ -1,4 +1,4 @@
-<link rel="stylesheet" href="https://saluton874.github.io/assets/css/main.css"></link>
+<link href="https://kevinburke.bitbucket.io/markdowncss/markdown.css" rel="stylesheet"></link>
 
 # チェシャちの備忘録
 
