@@ -1,4 +1,4 @@
-<link rel="stylesheet" href="https://saluton874.github.io/assets/css/main.css">
+<link rel="stylesheet" href="https://saluton874.github.io/assets/css/main.css"></link>
 
 # チェシャちの備忘録
 
