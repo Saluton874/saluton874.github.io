@@ -25,7 +25,9 @@
 --------|----------|-------|----|
 |2022年5月9日|Python3|初心者|人工無脳を作ること|
 
+{: align="right"}
 Powered by [Grass-Graph](https://grass-graph.appspot.com){:target="_blank":rel="noopener"}
+
 <a href="https://github.com/Saluton874" target="_blank" rel="noopener">
 <img src="https://grass-graph.appspot.com/images/Saluton874.png">
 </a>
