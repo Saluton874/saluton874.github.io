@@ -35,5 +35,14 @@
 
 順不同。（準備中）
 
+---
+
+## 日記
+
+- [めいたそ日記](meitaso.md)
+	- 思い出を忘れないように。
+
+---
+
 {: align="center"}
 (c) 2022 [Saluton874](https://github.com/Saluton874)
