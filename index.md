@@ -1,6 +1,3 @@
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="assets/css/main.css">
-
 # チェシャちの備忘録
 
 ## 主なリポジトリ
@@ -50,3 +47,7 @@
 
 {: align="center"}
 (c) 2022 [Saluton874](https://github.com/Saluton874)
+
+<script>
+head.insertAdjacentHTML('beforeEnd', '<link rel="stylesheet" href="assets/css/main.css">');
+</script>
