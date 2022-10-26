@@ -5,7 +5,6 @@
 ### [makirin_AI_v2](https://github.com/Saluton874/makirin_AI_v2)
 
 **未完成**の人工無脳プログラムです。
-ネットの友人のアドバイスも借りて、少しずつ進めています。
 
 #### 関連ページ
 
@@ -34,3 +33,5 @@
 
 順不同。（準備中）
 
+{: align="center"}
+(c) 2022 [Saluton874](https://github.com/Saluton874)
