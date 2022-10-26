@@ -105,10 +105,6 @@
 - [datasetの中身について](https://github.com/Saluton874/makirin_AI_v2/blob/main/mod/dataset/README.md)
 	- リポジトリをcloneした際の、足りないデータに関する補足です
 
-#### モジュール（プログラム）の備忘録
-
-（準備中）
-
 ---
 
 ## 簡単な自己紹介
