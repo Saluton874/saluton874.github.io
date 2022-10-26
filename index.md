@@ -2,10 +2,17 @@
 
 ## 主なリポジトリ
 
-- [makirin_AI_v2](https://github.com/Saluton874/makirin_AI_v2)
+### [makirin_AI_v2](https://github.com/Saluton874/makirin_AI_v2)
 
 **未完成**の人工無脳プログラムです。
 ネットの友人のアドバイスも借りて、少しずつ進めています。
+
+#### 関連ページ
+
+- [datasetの中身について](https://github.com/Saluton874/makirin_AI_v2/blob/main/mod/dataset/README.md)
+	- リポジトリをcloneした際の、足りないデータに関する補足です
+
+---
 
 ## 簡単な自己紹介
 
