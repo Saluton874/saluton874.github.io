@@ -12,3 +12,5 @@
 ネットの海の先人の知恵をお借りして、なんとかコーディングしています。
 
 <img src="https://grass-graph.appspot.com/images/Saluton874.png">
+
+画像表示されないかな？
