@@ -1,6 +1,6 @@
 <link href="https://saluton874.github.io/assets/css/design.css" rel="stylesheet">
 <div class="color-change"><label for="white"></label><label for="dark"></label></div>
-<input type="radio" id="white" name="colors" value="white" checked>
+<input type="radio" id="white" name="colors" value="white">
 <input type="radio" id="dark" name="colors" value="dark">
 
 # チェシャちの備忘録
