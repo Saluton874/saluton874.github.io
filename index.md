@@ -3,8 +3,6 @@
 <input type="radio" id="white" name="colors" value="white">
 <input type="radio" id="dark" name="colors" value="dark">
 
-# チェシャちの備忘録
-
 ## 主なリポジトリ
 
 ### [makirin_AI_v2](https://github.com/Saluton874/makirin_AI_v2)
