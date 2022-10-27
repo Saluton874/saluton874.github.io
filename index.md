@@ -71,7 +71,7 @@
 		}
 	/* ダークモード用 */
 	@media (prefers-color-scheme: dark) {
-		body:has([id="dark"]):not([id="dark"]:checked){
+		body:has([id="dark"]):not([id="white"]:checked){
 			color: var(--dark-text-color);
 			background: var(--dark-bg-color);	
 		}
