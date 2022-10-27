@@ -71,9 +71,9 @@
 		}
 	/* ダークモード用 */
 	@media (prefers-color-scheme: dark) {
-		body{
+		body:has(input){
 			color: var(--dark-text-color);
-			background: var(--dark-bg-color) !important;	
+			background: var(--dark-bg-color);	
 		}
 		h1, h2{ border-bottom-color: var(--dark-h-border); }
 		hr{ background-color: var(--dark-table-border); }
