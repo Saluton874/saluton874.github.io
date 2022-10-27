@@ -1,3 +1,4 @@
+<link href="https://saluton874.github.io/assets/style.css" rel="stylesheet">
 <style>
 	:root {
 		--white-bg-color: #fff;
@@ -38,22 +39,22 @@
 			color: var(--dark-text-color);
 			background: var(--dark-bg-color);	
 			}
-		body:has([id="dark"]):not([id="white"]:checked) h1,
-		body:has([id="dark"]):not([id="white"]:checked) h2{
+		body:has([id="dark"]:not([id="white"]:checked)) h1,
+		body:has([id="dark"]:not([id="white"]:checked)) h2{
 			border-bottom-color: var(--dark-h-border);
 			}
-		body:has([id="dark"]):not([id="white"]:checked) hr{
+		body:has([id="dark"]:not([id="white"]:checked)) hr{
 			background-color: var(--dark-table-border);
 			}
-		body:has([id="dark"]):not([id="white"]:checked) table th,
-		body:has([id="dark"]):not([id="white"]:checked) table td{
+		body:has([id="dark"]:not([id="white"]:checked)) table th,
+		body:has([id="dark"]:not([id="white"]:checked)) table td{
 			border:1px solid var(--dark-table-border);
 			}
-		body:has([id="dark"]):not([id="white"]:checked) table tr{
+		body:has([id="dark"]:not([id="white"]:checked)) table tr{
 			background-color: var(--dark-bg-color);
 			bprder-top: 1px solid var(--dark-table-border); 
 			}
-		body:has([id="dark"]):not([id="white"]:checked) .grass-graph{
+		body:has([id="dark"]:not([id="white"]:checked)) .grass-graph{
 			filter: invert();
 			}
 	}
