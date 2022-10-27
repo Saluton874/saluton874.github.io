@@ -73,7 +73,7 @@
 	@media (prefers-color-scheme: dark) {
 		body{
 			color: var(--dark-text-color);
-			background: var(--dark-bg-color);	
+			background: var(--dark-bg-color) !important;	
 		}
 		h1, h2{ border-bottom-color: var(--dark-h-border); }
 		hr{ background-color: var(--dark-table-border); }
@@ -117,12 +117,6 @@
 <a href="https://github.com/Saluton874" target="_blank" rel="noopener">
 <img src="https://grass-graph.appspot.com/images/Saluton874.png" width="100%" class="grass-graph">
 </a>
-
----
-
-## 参考文献
-
-順不同。（準備中）
 
 ---
 
