@@ -6,7 +6,7 @@
 		--dark-h-border: #232323;
 		--dark-table-border: #36383b;
 		--link-color: #1b94e0;
-		}
+	}
 	.color-change{
 		text-align: center;
 		padding:1rem 0;
@@ -31,11 +31,6 @@
 	body{
 		transition: all 0.3s ease-in-out;
 		}
-	@media (prefers-color-scheme: dark) {
-		body:not([id="dark"]:checked){
-			color: red;
-		}
-	}
 	/* ホワイトスイッチ */
 	body:has([id="white"]:checked) {
 		color: var(--white-text-color);
@@ -73,31 +68,31 @@
 	body:has([id="dark"]:checked) [for="dark"]:before {
 		background: var(--dark-text-color);
 		}
-
-	/* ダークモード用 */
-	/*
+	/* ダークモード */
 	@media (prefers-color-scheme: dark) {
-		body:has([id="dark"]):not([id="white"]:checked){
+		body:has([id="dark"]:not(:checked)){
 			color: var(--dark-text-color);
-			background: var(--dark-bg-color);	
-			}
-		body:has([id="dark"]):not([id="white"]:checked) h1,
-		body:has([id="dark"]):not([id="white"]:checked) h2{
+			background: var(--dark-bg-color);
+		}
+		body:has([id="dark"]:not(:checked)) h1,
+		body:has([id="dark"]:not(:checked)) h2{
 			border-bottom-color: var(--dark-h-border);
 			}
-		body:has([id="dark"]):not([id="white"]:checked) hr{
+		body:has([id="dark"]:not(:checked)) hr{
 			background-color: var(--dark-table-border);
 			}
-		body:has([id="dark"]):not([id="white"]:checked) table th,
-		body:has([id="dark"]):not([id="white"]:checked) table td{
+		body:has([id="dark"]:not(:checked)) table th,
+		body:has([id="dark"]:not(:checked)) table td{
 			border:1px solid var(--dark-table-border);
 			}
-		body:has([id="dark"]):not([id="white"]:checked) table tr{
+		body:has([id="dark"]:not(:checked)) table tr{
 			background-color: var(--dark-bg-color);
 			bprder-top: 1px solid var(--dark-table-border); 
 			}
-		body:has([id="dark"]):not([id="white"]:checked) .grass-graph{
+		body:has([id="dark"]:not(:checked)) .grass-graph{
 			filter: invert();
 			}
+		body:has([id="dark"]:not(:checked)) [for="dark"]:before {
+			background: var(--dark-text-color);
+			}
 	}
-	*/
