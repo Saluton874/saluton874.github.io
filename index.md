@@ -1,4 +1,4 @@
-<link href="https://saluton874.github.io/assets/style.css" rel="stylesheet">
+<link href="https://saluton874.github.io/assets/design.css" rel="stylesheet">
 <style>
 	:root {
 		--white-bg-color: #fff;
@@ -33,31 +33,6 @@
 	body{
 		transition: all 0.3s ease-in-out;
 		}
-	/* ダークモード用 */
-	@media (prefers-color-scheme: dark) {
-		body:has([id="dark"]:not([id="white"]:checked)){
-			color: var(--dark-text-color);
-			background: var(--dark-bg-color);	
-			}
-		body:has([id="dark"]:not([id="white"]:checked)) h1,
-		body:has([id="dark"]:not([id="white"]:checked)) h2{
-			border-bottom-color: var(--dark-h-border);
-			}
-		body:has([id="dark"]:not([id="white"]:checked)) hr{
-			background-color: var(--dark-table-border);
-			}
-		body:has([id="dark"]:not([id="white"]:checked)) table th,
-		body:has([id="dark"]:not([id="white"]:checked)) table td{
-			border:1px solid var(--dark-table-border);
-			}
-		body:has([id="dark"]:not([id="white"]:checked)) table tr{
-			background-color: var(--dark-bg-color);
-			bprder-top: 1px solid var(--dark-table-border); 
-			}
-		body:has([id="dark"]:not([id="white"]:checked)) .grass-graph{
-			filter: invert();
-			}
-	}
 	/* ホワイトスイッチ */
 	body:has([id="white"]:checked) {
 		color: var(--white-text-color);
@@ -95,9 +70,34 @@
 	body:has([id="dark"]:checked) [for="dark"]::before {
 		background: var(--dark-text-color);
 		}
+	/* ダークモード用 */
+	@media (prefers-color-scheme: dark) {
+		body:has(input):not([id="white"]:checked){
+			color: var(--dark-text-color);
+			background: var(--dark-bg-color);	
+			}
+		body:has(input):not([id="white"]:checked) h1,
+		body:has(input):not([id="white"]:checked) h2{
+			border-bottom-color: var(--dark-h-border);
+			}
+		body:has(input):not([id="white"]:checked) hr{
+			background-color: var(--dark-table-border);
+			}
+		body:has(input):not([id="white"]:checked) table th,
+		body:has(input):not([id="white"]:checked) table td{
+			border:1px solid var(--dark-table-border);
+			}
+		body:has(input):not([id="white"]:checked) table tr{
+			background-color: var(--dark-bg-color);
+			bprder-top: 1px solid var(--dark-table-border); 
+			}
+		body:has(input):not([id="white"]:checked) .grass-graph{
+			filter: invert();
+			}
+	}
 </style>
 <div class="color-change"><label for="white"></label><label for="dark"></label></div>
-<input type="radio" id="white" name="colors" value="white" checked>
+<input type="radio" id="white" name="colors" value="white">
 <input type="radio" id="dark" name="colors" value="dark">
 
 # チェシャちの備忘録
