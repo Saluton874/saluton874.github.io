@@ -92,14 +92,6 @@
 <input type="radio" id="white" name="colors" value="white" checked>
 <input type="radio" id="dark" name="colors" value="dark">
 
-# チェシャちの備忘録
-
-|テスト|テスト|
-------|------
-|内容|内容|
-
----
-
 ## めいたそ日記
 
 ### 2022年10月27日
