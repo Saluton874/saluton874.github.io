@@ -1,6 +1,8 @@
 	:root {
 		--white-bg-color: #fff;
 		--white-text-color: #000;
+		--white-h-border:#eaecef;
+		--white-table-border: #c6cbd1;
 		--dark-bg-color: #000;
 		--dark-text-color: #fff;
 		--dark-h-border: #232323;
@@ -36,10 +38,25 @@
 		color: var(--white-text-color);
 		background: var(--white-bg-color);
 		}
+	body:has([id="white"]:checked) h1,
+	body:has([id="white"]:checked) h2{
+		border-bottom-color: var(--white-h-border);
+		}
+	body:has([id="white"]:checked) hr{
+		background-color: #e1e4e8;
+		}
+	body:has([id="white"]:checked) table th,
+	body:has([id="white"]:checked) table td{
+		border:1px solid #dfe2e5;
+		}
+	body:has([id="white"]:checked) table tr{
+		background-color: var(--white-bg-color);
+		bprder-top: 1px solid var(--white-table-border); 
+		}
 	body:has([id="white"]:checked) .grass-graph{
 		filter: none;
 		}
-	body:has([id="white"]:checked) [for="white"]::before {
+	body:has([id="white"]:checked) [for="white"]:before {
 		background: var(--white-text-color);
 		}
 	/* ダークスイッチ */
