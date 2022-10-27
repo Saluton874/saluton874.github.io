@@ -113,3 +113,12 @@
 	body:has([id="dark"]:checked) [for="dark"]:before {
 		background: var(--dark-text-color);
 		}
+
+	h1:has([href="https://saluton874.github.io/"]):before{
+		display: block:
+		content:url(https://avatars.githubusercontent.com/u/105183174);
+		width:50px;
+		height: 50px;
+		border-radius: 50%;
+		margin-bottom:16px;
+	}
