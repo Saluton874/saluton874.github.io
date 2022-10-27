@@ -32,6 +32,23 @@
 	body{
 		transition: all 0.3s ease-in-out;
 		}
+	/* ダークモード用 */
+	@media (prefers-color-scheme: dark) {
+		body:has([id="white"]){
+			color: var(--dark-text-color);
+			background: var(--dark-bg-color);	
+		}
+		h1, h2{ border-bottom-color: var(--dark-h-border); }
+		hr{ background-color: var(--dark-table-border); }
+		table th, table td{
+			border:1px solid var(--dark-table-border);
+		}
+		table tr{
+			background-color: var(--dark-bg-color);
+			bprder-top: 1px solid var(--dark-table-border); 
+		}
+		.grass-graph{filter: invert();}
+	}
 	/* ホワイトスイッチ */
 	body:has([id="white"]:checked) {
 		color: var(--white-text-color);
@@ -69,23 +86,6 @@
 	body:has([id="dark"]:checked) [for="dark"]::before {
 		background: var(--dark-text-color);
 		}
-	/* ダークモード用 */
-	@media (prefers-color-scheme: dark) {
-		body:has(input){
-			color: var(--dark-text-color);
-			background: var(--dark-bg-color);	
-		}
-		h1, h2{ border-bottom-color: var(--dark-h-border); }
-		hr{ background-color: var(--dark-table-border); }
-		table th, table td{
-			border:1px solid var(--dark-table-border);
-		}
-		table tr{
-			background-color: var(--dark-bg-color);
-			bprder-top: 1px solid var(--dark-table-border); 
-		}
-		.grass-graph{filter: invert();}
-	}
 	
 </style>
 <div class="color-change"><label for="white"></label><label for="dark"></label></div>
