@@ -74,17 +74,25 @@
 		body:has([id="dark"]):not([id="white"]:checked){
 			color: var(--dark-text-color);
 			background: var(--dark-bg-color);	
-		}
-		h1, h2{ border-bottom-color: var(--dark-h-border); }
-		hr{ background-color: var(--dark-table-border); }
-		table th, table td{
+			}
+		body:has([id="dark"]):not([id="white"]:checked) h1,
+		body:has([id="dark"]):not([id="white"]:checked) h2{
+			border-bottom-color: var(--dark-h-border);
+			}
+		body:has([id="dark"]):not([id="white"]:checked) hr{
+			background-color: var(--dark-table-border);
+			}
+		body:has([id="dark"]):not([id="white"]:checked) table th,
+		body:has([id="dark"]):not([id="white"]:checked) table td{
 			border:1px solid var(--dark-table-border);
-		}
-		table tr{
+			}
+		body:has([id="dark"]):not([id="white"]:checked) table tr{
 			background-color: var(--dark-bg-color);
 			bprder-top: 1px solid var(--dark-table-border); 
-		}
-		.grass-graph{filter: invert();}
+			}
+		body:has([id="dark"]):not([id="white"]:checked) .grass-graph{
+			filter: invert();
+			}
 	}
 </style>
 <div class="color-change"><label for="white"></label><label for="dark"></label></div>
