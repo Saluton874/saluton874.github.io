@@ -3,11 +3,14 @@
 		--white-text-color: #000;
 		--white-h-border:#eaecef;
 		--white-table-border: #c6cbd1;
-		--dark-bg-color: #000;
-		--dark-text-color: #fff;
+		--dark-bg-color: #0E1116;
+		--dark-text-color: #CAD1D8;
 		--dark-h-border: #232323;
 		--dark-table-border: #36383b;
 		--link-color: #1b94e0;
+	}
+	code, tt{
+		background:#353940;
 	}
 	.color-change{
 		text-align: center;
