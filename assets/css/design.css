@@ -9,9 +9,6 @@
 		--dark-table-border: #36383b;
 		--link-color: #1b94e0;
 	}
-	code, tt{
-		background:#353940;
-	}
 	.color-change{
 		text-align: center;
 	}
@@ -41,6 +38,10 @@
 			color: var(--dark-text-color);
 			background: var(--dark-bg-color);
 		}
+		body:has([id="dark"]:not(:checked)) code,
+		body:has([id="dark"]:not(:checked)) tt{
+			background-color:#353940;
+		}
 		body:has([id="dark"]:not(:checked)) h1,
 		body:has([id="dark"]:not(:checked)) h2{
 			border-bottom-color: var(--dark-h-border);
@@ -68,6 +69,10 @@
 		color: var(--white-text-color);
 		background: var(--white-bg-color);
 		}
+	body:has([id="white"]:checked) code,
+	body:has([id="white"]:checked) tt{
+		background-color:rgba(27,31,35,0.05);
+	}
 	body:has([id="white"]:checked) h1,
 	body:has([id="white"]:checked) h2{
 		border-bottom-color: var(--white-h-border);
@@ -94,6 +99,10 @@
 		color: var(--dark-text-color);
 		background: var(--dark-bg-color);
 		}
+	body:has([id="dark"]:checked) code,
+	body:has([id="dark"]:checked) tt{
+		background-color:#353940;
+	}
 	body:has([id="dark"]:checked) h1,
 	body:has([id="dark"]:checked) h2{
 		border-bottom-color: var(--dark-h-border);
