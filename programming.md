@@ -5,6 +5,9 @@
 
 ## プログラミング雑記
 
+### 2022年10月28日
+- CSSの反映が遅いので、外部CSSの[github-page-design.css](https://meitaso.net/assets/css/github-page-design.css){:target="_blank":rel="noopener"}を読み込むように変更した。
+
 ### 2022年10月27日
 - [GitHubページ](https://saluton874.github.io)をダークモードに対応させつつ、色変更できるようにした。
 	- CSSの優先順位の勉強になった。`:has`、`:not`の使い方を学んだ。
