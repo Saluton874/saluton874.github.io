@@ -7,6 +7,8 @@
 
 ### 2022年10月31日
 - `tone_changer.py`の処理を大幅に増やした。バグが増えた。
+	- [助動詞活用表](https://www.kokugobunpou.com/助動詞/助動詞活用表/#gsc.tab=0){:target="_blank":rel="noopener"}を一通り完了。チェック作業は明日にする。
+	- カ変活用（くる）の処理を一旦停止。
 
 ### 2022年10月30日
 - `tone_changer.py`にてカ変活用（くる）の処理を強化した。
