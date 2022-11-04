@@ -9,7 +9,7 @@
 - `tone_changer.py`を強化し、助動詞はひと段落。
 
 ### 2022年11月01日
-- `tone_changer.py`は大幅な見直しが必要。
+- `tone_changer.py`の大幅な見直しが必要。
 
 ### 2022年10月31日
 - `tone_changer.py`の処理を大幅に増やした。バグが増えた。
