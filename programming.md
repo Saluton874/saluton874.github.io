@@ -6,7 +6,7 @@
 ## プログラミング雑記
 
 ### 2022年11月05日
-- 助動詞以外の分類にできる限り対応した。[こちらの記事](https://qiita.com/ensan_hcl/items/885588c7d2d99de85b44){:target="_blank":rel="noopener"}を参考にした。
+- 助動詞以外の分類も、できる限り対応した。[こちらの記事](https://qiita.com/ensan_hcl/items/885588c7d2d99de85b44){:target="_blank":rel="noopener"}を参考にした。
 - なんだかもう満足してしまって、燃え尽き症候群中。
 
 ### 2022年11月04日
